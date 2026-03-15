@@ -4,7 +4,6 @@ files/
 # exclude any env file
 .env
 .env.*
-!.env.example
 
 # exclude the .vscode folder
 .vscode/
