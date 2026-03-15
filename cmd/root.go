@@ -12,9 +12,7 @@ var rootCmd = &cobra.Command{
 	Use:   "mazey",
 	Short: "Go Mazey Go! 🐈 — A threat intelligence triage tool",
 	Long: `Go Mazey Go! 🐈    
-Mazey is a security reconnaissance tool designed to streamline threat triage. 
-It cross-references Fail2ban logs with Shodan's infrastructure data and 
-VirusTotal’s reputation engine.`,
+**Mazey** is an early-stage CLI reconnaissance tool for threat triage. It takes *inbound noise* such as automated scans, bots, misconfigured devices and enriches them using various threat intelligence API's like Virus Total, Shodan, etc...`,
 	Example: `mazey blacklist 5
 mazey iplookup 1.1.1.1
 mazey ipreport 211.106.133.202
