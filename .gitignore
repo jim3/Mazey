@@ -1,5 +1,5 @@
 # exclude all misc. notes in the files folder
-files/
+scripts/
 
 # exclude any env file
 .env
